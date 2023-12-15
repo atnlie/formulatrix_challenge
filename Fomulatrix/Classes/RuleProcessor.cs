@@ -2,11 +2,11 @@
 {
     public class RuleProcessor
     {
-        private readonly List<IRule> rules = new List<IRule>();
+        private readonly List<IRule> rules;
 
-        public void AddRule(IRule rule)
+        public RuleProcessor(List<IRule> rules)
         {
-            rules.Add(rule);
+            this.rules = rules;
         }
 
         public string ProcessRules(int number)

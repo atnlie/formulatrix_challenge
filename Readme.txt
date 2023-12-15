@@ -29,3 +29,10 @@ the rules
 9 : "huzz"
 
 Refer to branch `3-coding-competency`
+
+4. Turn the generator logic in the code you have so far into a class object and make it so that
+the client code can configure its own rules i.e. add the following API
+
+myClass.AddRule( int input, string output )
+
+Refer to branch `4-coding-competency`
