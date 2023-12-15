@@ -9,8 +9,10 @@
                 RuleProcessor processor = new RuleProcessor();
 
                 processor.AddRule(new DivisibilityRule(3, "foo"));
+                processor.AddRule(new DivisibilityRule(4, "baz"));
                 processor.AddRule(new DivisibilityRule(5, "bar"));
                 processor.AddRule(new DivisibilityRule(7, "jazz"));
+                processor.AddRule(new DivisibilityRule(9, "huzz"));
 
                 // Process the rules for the current number
                 string result = processor.ProcessRules(i);

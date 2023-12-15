@@ -18,3 +18,14 @@ This means for x=21, x=35 and x=105 the program should print "foojazz", "barjazz
 "foobarjazz" respectively.
 
 Refer to branch `2-coding-competency`
+
+
+3. Continuing on the previous question. Using the same divisible logic, use the table below as
+the rules
+3 : "foo"
+4 : "baz"
+5 : "bar"
+7 : "jazz"
+9 : "huzz"
+
+Refer to branch `3-coding-competency`
