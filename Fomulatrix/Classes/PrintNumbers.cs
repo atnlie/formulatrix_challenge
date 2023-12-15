@@ -10,6 +10,7 @@
 
                 processor.AddRule(new DivisibilityRule(3, "foo"));
                 processor.AddRule(new DivisibilityRule(5, "bar"));
+                processor.AddRule(new DivisibilityRule(7, "jazz"));
 
                 // Process the rules for the current number
                 string result = processor.ProcessRules(i);
